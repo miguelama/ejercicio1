@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cuadrotexto {
+   width: 250px;
+   background-color: rgb(199, 189, 189);
+   border: 2px solid #27f375;
+   border-radius: 20px;
+   padding: 12px;
+
+ }
+
+.button_e {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button_e:hover {
+  background-color: #0056b3;
+}
+
+
+ .input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+.icon-input {
+  padding: 10px 15px 10px 45px; 
+  border: 2px solid #2196F3; 
+  border-radius: 25px; 
+  width: 300px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f7f7f7; 
+  outline: none; 
+}
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #777;
+  font-size: 20px;
+}
